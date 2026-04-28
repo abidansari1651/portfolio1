@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Portfolio</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  color: #1f2937;
+}
+
+header {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 4px solid #1e40af;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+header p {
+  margin-top: 8px;
+  font-weight: 300;
+  color: #cbd5f5;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #1e3a8a;
+  padding: 12px;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #1e40af;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* PROFILE SECTION */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #1e40af;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+/* CARDS */
+.card {
+  background: #f9fafb;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background: #1e40af;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+footer {
+  background: #0f172a;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>ABID ANSARI</h1>
+  <p>
+    I am a motivated and detail-oriented individual 💼 with a strong foundation in web development 💻.
+    Skilled in HTML, CSS, and JavaScript ⚙️, I focus on building responsive and user-friendly applications 📱.
+    I continuously improve my problem-solving skills 🧠 and aim to create efficient, modern solutions 🚀.
+  </p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="profile">
+    <!-- ADD YOUR IMAGE HERE -->
+    <img src="./WhatsApp Image 2026-04-28 at 7.07.13 AM.jpeg" alt="Profile Photo">
+
+    <div class="profile-text">
+      <p>
+        I am a passionate web developer focused on creating clean, efficient, and user-friendly web applications.
+        I enjoy turning ideas into real-world projects and continuously learning new technologies 📚.
+      </p>
+      <p>
+        My goal is to build impactful digital solutions while improving my technical and creative abilities 📈.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">C Programming</div>
+    <div class="skill">MySQL</div>
+    <div class="skill">Responsive Design</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Portfolio Website</h3>
+    <p>Designed and developed a personal portfolio using HTML and CSS with a clean and professional layout.</p>
+  </div>
+
+  <div class="card">
+    <h3>Expense Management System</h3>
+    <p>
+      Built a full project using HTML, CSS, JavaScript, C, and MySQL to manage and track expenses efficiently.
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📞 +91 9876543210</p>
+  <p>📧 your@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 ABID ANSARI | DBUU</p>
+</footer>
+
+</body>
+</html>
